@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio Artur Nhanga</title>
+    <link rel="stylesheet" href="styleindex.css">
+    <script src="menu.js" defer></script>
+</head>
+<body>
+
+     <header>
+        <div class="interface">
+             <div class="logo">
+               <img class="imglogo" src="verificado.png" alt="">                
+             </div><!--logo-->
+
+             <div class="btn-contacto">
+                <a href="#contacto">
+                    <button>
+                        Obter CV
+                    </button>
+                </a>
+             </div><!--btn-contacto-->
+
+             <div class="btn-abrir-menu" id="btn-menu">
+                <img src="abir_menu.png" alt="">
+             </div><!--btn-abrir-menu-->
+
+             <div class="menu-mobile" id="menu-mobile">
+               <div class="btn-fechar" id="btn-fechar">
+              <img src="fechar_menu.png" alt="">
+               </div><!--btn-fechar-->
+
+                <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#especialidades">Especialidades</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#portifolio">Projetos</a></li>
+                    <li><a href="#contacto"> Obter CV</a></li>
+                </ul>
+             </nav>
+             </div><!--menu-mobile-->
+
+             <div class="overlay-menu" id="overlay-menu"></div>
+        </div><!--interface-->
+     </header>
+
+     <main>
+        <section class="topo-do-site" id="inicio">
+            <div class="interface">
+               <div class="flex">
+                <div class="txt-topo-site">
+                      <h1>TRANSFORMO IDEIAS EM <br> REALIDADE DIGITAL<span>.</span></h1><br>
+                      <p>Criatividade e inovação andam lado a lado. Com uma combinação única de design, <br>
+                         impactante funcionalidade intuitiva e otimização para resultados estou pronto, <br>
+                         para criar a presença online dos seus sonhos.
+                    </p>
+                    <div>
+                        <a href="#contacto">
+                            <button>Entre em contacto</button>
+                        </a>
+                    </div>
+                </div><!--txt-topo-site-->
+                <div class="img-topo-site">
+                    <img src="principal.jpg" alt="">
+                </div>
+               </div><!--flex-->
+            </div><!--interface-->
+        
+        </section><!--topo-do-site-->
+
+        <section class="especialidades" id="especialidades">
+            <div class="interface">
+                <h2 class="titulo">MINHAS <span>ESPECIALIDADES.</span></h2>
+                <div class="flex">
+                    <div class="especialidades-box">
+                        <h3>WEB DESIGN FRONT END</h3>
+                        <img src="html.png" alt="">
+                        <p><span>Html:</span> nível avançado.</p>
+                        <img src="css.png" alt="">
+                        <p><span>Css:</span> nível avançado.</p>
+                        <img src="javascript.png" alt="">
+                        <p><span>Javascript:</span> nível intermediário.</p>
+                        <br><img src="react.png" alt="">
+                        <p><span>React:</span> nível intermediário.</p>
+                            </div>
+                            <div class="especialidades-box">
+                        <h3>SISTEMAS EMBARCADOS</h3>
+                        <img src="linguagemc.png" class="center-box" alt="">
+                        <p><span>Linguagem C:</span> nível avançado.
+                            </div>
+                               <div class="especialidades-box">
+                        <h3>BANCO DE DADOS SSMS</h3>
+                        <img src="sql.png" class="center-box" alt="">
+                        <p><span>Linguagem SQL:</span> nível avançado.
+                        </div>
+                </div><!--flex-->
+            </div><!--interface-->
+            <p class="txt-portifolio">Ver Projetos: https://github.com/arturnhanga</p>
+        </section><!--especialidades-->
+
+        <section class="sobre" id="sobre">
+        <div class="interface">
+            <div class="flex">
+                <div class="txt-sobre">
+                 <h2>MUITO PRAZER,<br><span>SOU O ARTUR NHANGA.</span></h2><br>
+                 <p>Sou um jovem dedicado, responsável e comprometido com tudo o que me proponho a fazer. Tenho facilidade para aprender, gosto de desafios e estou sempre em busca de crescimento pessoal e profissional. Acredito que o esforço, a disciplina e a vontade de evoluir fazem toda a diferença no ambiente de trabalho, por isso procuro sempre dar o meu melhor em cada tarefa que realizo.
+
+Valorizo muito o trabalho em equipe, o respeito e a comunicação clara, pois acredito que bons resultados são construídos em conjunto. Ao mesmo tempo, sou proativo e tenho iniciativa para resolver problemas, assumindo responsabilidades e buscando soluções de forma organizada, por isso sou a pessoa que você procura, fale comigo preenchendo o formulário.</p>
+
+                </div><!--txt-sobre-->
+                 <div class="img-sobre">
+                    <img src="secundaria.jpg" alt="">
+                </div>
+            </div><!--flex-->
+        </div><!--interface-->
+        </section><!--sobre-->
+
+        <section class="formulario" id="contacto">
+             <div class="interface">
+               <h2>FALE <span>COMIGO.</span></h2><br>
+               <form action="https://formsubmit.co/arturnhanga01@gmail.com" method="POST">
+                <input name="nome" type="text" placeholder="Seu Nome Completo:" required>
+                <input name="email" type="text" placeholder="Seu E-mail:" required>
+                <input name="telefone" type="text" placeholder="Seu Celular:" required>
+                <input name="mensagem" type="text" placeholder="Sua Mensagem:" required>
+                <input type="hidden" name="_captcha" value="false">
+                <div class="btn-enviar">
+                <button type="submit">Enviar</button>
+                </div><br>
+               </form>
+             </div><!--interface-->
+        </section><!--formulario-->
+     </main>
+
+</body>
+</html>
